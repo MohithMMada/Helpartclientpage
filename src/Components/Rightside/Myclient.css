@@ -1,0 +1,28 @@
+.clientCard{
+  background-color: white;
+  margin: 10px;
+  width: 45%;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.mcText{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.cccontainer{
+  display: flex;
+  align-items: center;
+  padding: 15px 60px;
+}
+.cct{
+  padding-left: 25px;
+}
+.cctOne, .cctTwo{
+  margin: 0;
+  padding: 0;
+}
+.cctOne{
+  font-size: 18px;
+  font-weight: 500;
+}

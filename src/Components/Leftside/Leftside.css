@@ -1,0 +1,37 @@
+.leftCard{
+  background-color: white;
+  width: 30%;
+  margin: 10px 100px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+button{
+  cursor: pointer;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border:0 none white;
+  width: 30vw;
+  background-color: white;
+}
+button:hover{
+  background-color: rgb(211, 211, 211);
+} 
+.buttonText{
+  padding: 0 20px;
+}
+.buttonTextOne{
+  font-size: 15px;
+  font-weight: 700;
+}
+.btn{
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+}
+.btn:hover{
+  background-color: white;
+}
