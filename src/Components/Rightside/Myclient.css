@@ -4,6 +4,7 @@
   width: 45%;
   padding: 5px 10px;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 .mcText{
   text-align: center;
@@ -25,4 +26,32 @@
 .cctOne{
   font-size: 18px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .clientCard {
+    width: 80%;
+    height:60vh;
+    padding-top: 0;
+  }
+  .mcText{
+  font-size: 5.5vw;
+  }
+
+  .cccontainer {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  .cct {
+    padding-left: 0;
+    padding-top: 5px; /* Add top padding for spacing on smaller screens */
+  }
+  .cctOne, .cctTwo{
+    font-size: 3.5vw;
+  }
+  img{
+    height: auto;
+    max-width: 9vw;
+    padding-right: 10px;
+  }
 }

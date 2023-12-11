@@ -42,3 +42,21 @@
   padding: 4px 4px;
   margin-left: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+  .navContainer {
+    flex-direction:column;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .navCentre {
+    width: 90%;
+    margin-top: 0px; 
+  }
+
+  .navRight {
+    width: 100%;
+    margin-top: 0px; 
+  }
+}

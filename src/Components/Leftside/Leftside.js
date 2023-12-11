@@ -1,14 +1,15 @@
 import React from 'react';
 import '../Leftside/Leftside.css'
 import { Link } from 'react-router-dom';
-import { SlCalender } from "react-icons/sl";
 import { FaAngleRight } from "react-icons/fa";
+import { MdFace, MdSubscriptions, MdOutlinePayment, MdFactCheck } from "react-icons/md";
+import { IoMdLock, IoIosNotifications } from "react-icons/io";
 
 function Leftside() {
   return (
     <div className='leftCard'>
       <Link to="/appoi" style={{textDecoration:"none"}}><button>
-        <SlCalender color='blue' size="25px" />
+        <MdFactCheck color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>My Appointment</p>
           <p className='buttonTextTwo'>Show your saved appointment</p>
@@ -16,7 +17,7 @@ function Leftside() {
         <FaAngleRight color='rgb(85, 85, 85)' size="20px"/>
       </button></Link>
       <Link to="/client" style={{textDecoration:"none"}}><button>
-        <SlCalender color='blue' size="25px" />
+        <MdFace color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>My Clients</p>
           <p className='buttonTextTwo'>Show your clients</p>
@@ -24,7 +25,7 @@ function Leftside() {
         <FaAngleRight color='rgb(85, 85, 85)' size="20px"/>
       </button></Link>
       <button>
-        <SlCalender color='blue' size="25px" />
+        <MdSubscriptions color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>Subscription Setting</p>
           <p className='buttonTextTwo'>Manage your price</p>
@@ -32,7 +33,7 @@ function Leftside() {
         <FaAngleRight color='rgb(85, 85, 85)' size="20px"/>
       </button>
       <button>
-        <SlCalender color='blue' size="25px" />
+        <IoMdLock color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>Security Access</p>
           <p className='buttonTextTwo'>Show your saved appointment</p>
@@ -40,7 +41,7 @@ function Leftside() {
         <FaAngleRight color='rgb(85, 85, 85)' size="20px"/>
       </button>
       <button>
-        <SlCalender color='blue' size="25px" />
+        <IoIosNotifications color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>Notification Settings</p>
           <p className='buttonTextTwo'>Change your notification settings</p>
@@ -48,7 +49,7 @@ function Leftside() {
         <FaAngleRight color='rgb(85, 85, 85)' size="20px"/>
       </button>
       <button>
-        <SlCalender color='blue' size="25px" />
+        <MdOutlinePayment color='blue' size="28px" />
         <div className='buttonText'>
           <p className='buttonTextOne'>Payment Settings</p>
           <p className='buttonTextTwo'>Change your payment settings</p>

@@ -19,7 +19,7 @@ function Navside() {
       </div>
       <div className='navRight'>
         <div className='navRightOne'>
-          <img src={icon} alt='icon' width="50" height="50px"/>
+          <img src={icon} alt='icon' height="50vh"/>
           <p className='navRightText'>Yondu</p>
         </div>
         <div className='navRightTwo'>
